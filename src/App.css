@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-size: 15px;
+}
+
+
+.container {
+  background-color: #594D5B;
+  border-collapse: collapse;
+}
+
+.Searchinput {
+  padding: 10px;
+  margin: 10px;
+  left: 36%;
+  width: 350px;
+  position: relative;
+  border: none;
+  outline: none;
+  text-align: center;
+
+}
+
+.Searchinput::placeholder {
+  text-align: center;
+}
+
+
+.search {
+  padding: 10px;
+  left: 75%;
+}
+
+
+p.p {
+  left: 70%;
+  color: white;
+  position: relative;
+}
+
+.loading {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  color: rgb(255, 187, 0);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.sc-eeDSqt.bRGCiY.rdt_Pagination {
+  background-color: #594D5B;
+  color: white;
+}
